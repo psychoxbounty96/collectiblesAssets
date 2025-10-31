@@ -1,150 +1,63 @@
 {
-  // ===============================
-  // 🔖 Grundlegende Pack-Informationen
-  // ===============================
   "pack_name": "Base Pack",
   "version": "1.0",
   "engine_min_version": "5.0",
   "author": "PsYchOxBoUnTy96",
   "description": "Das Basis-Pack mit mehreren Sammel-Assets.",
-
-  // ===============================
-  // ⚙️ Engine-Konfiguration
-  // ===============================
-  "asset_label": "Dino",             // Name des Sammelobjekts (z. B. Dino, Katze, Auto)
-  "commands": ["!dino", "!egg"],     // Chatbefehle, die dieses Pack auslösen
-  "egg_asset": "egg.svg",            // SVG des „Eis“ oder Startobjekts
-  "rarity_weights": {                // Dropchancen (in Prozent)
+  "asset_label": "Dino",
+  "commands": ["!dino", "!egg"],
+  "egg_asset": "egg.svg",
+  "rarity_weights": {
     "common": 60,
     "rare": 25,
     "epic": 10,
     "legendary": 4,
     "mythic": 1
   },
-
-  // ===============================
-  // 🎬 Animationseinstellungen
-  // ===============================
   "animation": {
-    "style": "egg",          // "egg", "box" oder "portal" (aktuell verfügbar)
-    "shakeDuration": 3200,   // Dauer der Wackelphase (ms)
-    "revealDelay": 800,      // Verzögerung vor dem Erscheinen des Assets (ms)
-    "fadeOutDelay": 2000     // Nachleuchten / Ende der Szene (ms)
+    "style": "egg",
+    "shakeDuration": 3200,
+    "revealDelay": 800,
+    "fadeOutDelay": 2000
   },
-
-  // ===============================
-  // ✨ Effekteinstellungen
-  // ===============================
   "effects": {
-    "particleCount": 14,     // Anzahl der Partikel bei Schlüpfen
-    "flashColor": "#ffffff", // Farbe des Lichtblitzes
-    "flashOpacity": 0.4,     // Intensität (0.0–1.0)
-    "particleColor": null    // Farbe der Partikel (wenn null → Raritätsfarbe)
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
   },
-
-  // ===============================
-  // 🦕 Raritäten & Farben
-  // ===============================
   "rarities": {
-    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
-    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
-    "epic":      { "label": "Episch",     "color": "#a673ff" },
-    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
-    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+    "common": { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare": { "label": "Selten", "color": "#5ac0e2" },
+    "epic": { "label": "Episch", "color": "#a673ff" },
+    "legendary": { "label": "Legendär", "color": "#ffb43b" },
+    "mythic": { "label": "Mythisch", "color": "#ff66cc" }
   },
-
-  // ===============================
-  // 🔊 Sounds (optional)
-  // ===============================
   "sounds": {
-    "hatch": "sounds/hatch.mp3",          // Hauptsound bei Animation
-    "rare_drop": "sounds/rare_drop.mp3",  // Für seltene Funde
-    "legendary_drop": "sounds/legendary.mp3" // Für legendäre/mythische Funde
+    "hatch": "sounds/hatch.mp3",
+    "rare_drop": "sounds/rare_drop.mp3",
+    "legendary_drop": "sounds/legendary.mp3"
   },
-
-  // ===============================
-  // 💬 Texte (vollständig steuerbar über Pack)
-  // ===============================
   "texts": {
     "foundItem": "🦕 {user} hat ein {rarity}es {assetLabel}-Ei gefunden!",
     "revealResult": "→ Es schlüpfte zu: {asset}",
     "legendaryBanner": "🌟 EIN LEGENDÄRER FUND! 🌟",
     "collectionComplete": "{user} hat alle {assetLabel}s gefunden!"
   },
-
-  // ===============================
-  // 📦 Asset-Liste
-  // ===============================
   "assets": [
-    {
-      "name": "Triceratops",
-      "file": "triceratops.svg",
-      "rarity": "common"
-    },
-    {
-      "name": "Stegosaurus",
-      "file": "stegosaurus.svg",
-      "rarity": "common"
-    },
-     {
-      "name": "Parasaurus",
-      "file": "parasaurus.svg",
-      "rarity": "common"
-    },
-     {
-      "name": "Iguanodon",
-      "file": "iguanodon.svg",
-      "rarity": "common"
-    },
-    {
-      "name": "Ankylosaurus",
-      "file": "ankylosaurus.svg",
-      "rarity": "common"
-    },
-    {
-      "name": "Velociraptor",
-      "file": "velociraptor.svg",
-      "rarity": "rare"
-    }, 
-    {
-      "name": "Pachy",
-      "file": "pachy.svg",
-      "rarity": "rare"
-    },
-    {
-      "name": "Gallimimus",
-      "file": "gallimimus.svg",
-      "rarity": "rare"
-    },
-    {
-      "name": "Dilophosaurus",
-      "file": "dilophosuarus.svg",
-      "rarity": "rare"
-    },
-    {
-      "name": "Allosaurus",
-      "file": "allosaurus.svg",
-      "rarity": "rare"
-    },
-    {
-      "name": "Spinosaurus",
-      "file": "spinosaurus.svg",
-      "rarity": "epic"
-    },
-    {
-      "name": "Baryonyx",
-      "file": "baryonyx.svg",
-      "rarity": "epic"
-    },
-    {
-      "name": "Carnotaurus",
-      "file": "carnotaurus.svg",
-      "rarity": "epic"
-    },
-    {
-      "name": "Kentrosaurus",
-      "file": "kentrosaurus.svg",
-      "rarity": "epic"
-    }
+    { "name": "Triceratops", "file": "triceratops.svg", "rarity": "common" },
+    { "name": "Stegosaurus", "file": "stegosaurus.svg", "rarity": "common" },
+    { "name": "Parasaurus", "file": "parasaurus.svg", "rarity": "common" },
+    { "name": "Iguanodon", "file": "iguanodon.svg", "rarity": "common" },
+    { "name": "Ankylosaurus", "file": "ankylosaurus.svg", "rarity": "common" },
+    { "name": "Velociraptor", "file": "velociraptor.svg", "rarity": "rare" },
+    { "name": "Pachy", "file": "pachy.svg", "rarity": "rare" },
+    { "name": "Gallimimus", "file": "gallimimus.svg", "rarity": "rare" },
+    { "name": "Dilophosaurus", "file": "dilophosaurus.svg", "rarity": "rare" },
+    { "name": "Allosaurus", "file": "allosaurus.svg", "rarity": "rare" },
+    { "name": "Spinosaurus", "file": "spinosaurus.svg", "rarity": "epic" },
+    { "name": "Baryonyx", "file": "baryonyx.svg", "rarity": "epic" },
+    { "name": "Carnotaurus", "file": "carnotaurus.svg", "rarity": "epic" },
+    { "name": "Kentrosaurus", "file": "kentrosaurus.svg", "rarity": "epic" }
   ]
 }
