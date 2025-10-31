@@ -1,9 +1,9 @@
 {
-  "pack_name": "Base Pack",
+  "pack_name": "Dino Pack",
   "version": "1.0",
   "engine_min_version": "5.0",
   "author": "PsYchOxBoUnTy96",
-  "description": "Das Basis-Pack mit mehreren Sammel-Assets.",
+  "description": "Das Dino-Pack mit mehreren Sammel-Assets.",
   "asset_label": "Dino",
   "commands": ["!dino", "!egg"],
   "egg_asset": "egg.svg",
