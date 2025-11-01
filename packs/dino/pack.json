@@ -58,6 +58,16 @@
     { "name": "Spinosaurus", "file": "spinosaurus.svg", "rarity": "epic" },
     { "name": "Baryonyx", "file": "baryonyx.svg", "rarity": "epic" },
     { "name": "Carnotaurus", "file": "carnotaurus.svg", "rarity": "epic" },
-    { "name": "Kentrosaurus", "file": "kentrosaurus.svg", "rarity": "epic" }
+    { "name": "Kentrosaurus", "file": "kentrosaurus.svg", "rarity": "epic" },
+    { "name": "Styracosaurus", "file": "styracosaurus.svg", "rarity": "epic" },
+    { "name": "T-Rex", "file": "trex.svg", "rarity": "legendary" },
+    { "name": "Giganotosaurus", "file": "giganotosaurus.svg", "rarity": "legendary" },
+    { "name": "Therizinosaurus", "file": "therizinosaurus.svg", "rarity": "legendary" },
+    { "name": "Troodon", "file": "troodon.svg", "rarity": "legendary" },
+    { "name": "Quetzalcoatlus", "file": "quetzalcoatlus.svg", "rarity": "mythic" },
+    { "name": "Deinocheirus", "file": "deinocheirus.svg", "rarity": "mythic" },
+    { "name": "Titanosaurus", "file": "titanosaurus.svg", "rarity": "mythic" },
+    { "name": "Mosasaurus", "file": "mosasaurus.svg", "rarity": "mythic" },
+    { "name": "Amargasaurus", "file": "amargasaurus.svg", "rarity": "mythic" }
   ]
 }
