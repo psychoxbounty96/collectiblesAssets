@@ -1,7 +1,7 @@
 {
   "pack_name": "Dino Pack",
   "version": "1.0",
-  "engine_min_version": "5.0",
+  "engine_min_version": "5.3",
   "author": "PsYchOxBoUnTy96",
   "description": "Das Dino-Pack mit mehreren Sammel-Assets.",
   "asset_label": "Dino",
@@ -43,6 +43,10 @@
     "revealResult": "→ Es schlüpfte zu: {asset}",
     "legendaryBanner": "🌟 EIN LEGENDÄRER FUND! 🌟",
     "collectionComplete": "{user} hat alle {assetLabel}s gefunden!"
+  },
+  "egg_assets": {
+    "base": "eggAssets/egg.svg",
+    "cracks": ["eggAssets/egg_crack1.svg", "eggAssets/egg_crack2.svg"]
   },
   "assets": [
     { "name": "Triceratops", "file": "triceratops.svg", "rarity": "common" },
