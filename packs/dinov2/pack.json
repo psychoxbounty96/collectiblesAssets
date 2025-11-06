@@ -19,9 +19,9 @@
     "crackStage2Delay": 2400
   },
   "container_assets": {
-    "base":   "ui/container_base.svg",
-    "stage1": "ui/container_stage1.svg",
-    "stage2": "ui/container_stage2.svg"
+    "base":   "containerAssets/egg.svg",
+    "stage1": "containerAssets/egg_crack1.svg",
+    "stage2": "containerAssets/egg_crack2.svg"
   },
   "animation_sequence": [
     "assetShake",
