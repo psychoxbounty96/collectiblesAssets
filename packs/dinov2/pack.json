@@ -1,0 +1,44 @@
+{
+  "pack_name": "DinoV2",
+  "asset_label": "Dino",
+  "commands": ["!dino"],
+  "rarity_weights": { "common": 60, "rare": 25, "epic": 10, "legendary": 4, "mythic": 1 },
+  "rarities": {
+    "common":    { "label": "gewöhnlich", "color": "#B8D48A" },
+    "rare":      { "label": "selten",     "color": "#5AC0E2" },
+    "epic":      { "label": "episch",     "color": "#A673FF" },
+    "legendary": { "label": "legendär",   "color": "#FFB43B" },
+    "mythic":    { "label": "mythisch",   "color": "#FF66CC" }
+  },
+  "effects": { "particleCount": 16 },
+  "animation": {
+    "shakeDuration": 3200,
+    "flashDuration": 600,
+    "bannerDuration": 2500,
+    "crackStage1Delay": 1200,
+    "crackStage2Delay": 2400
+  },
+  "container_assets": {
+    "base":   "ui/container_base.svg",
+    "stage1": "ui/container_stage1.svg",
+    "stage2": "ui/container_stage2.svg"
+  },
+  "animation_sequence": [
+    "assetShake",
+    "assetCrack",
+    "assetFlash",
+    "assetReveal",
+    "showBanner",
+    "fadeOut"
+  ],
+  "assets": [
+    { "name": "Rex", "rarity": "epic", "file": "dinos/rex.svg" }
+  ],
+  "texts": {
+    "foundItem": "✨ {user} fand ein {rarity}es {assetLabel}!",
+    "revealResult": " Es erschien: {asset}",
+    "legendaryBanner": "🌟 LEGENDÄRER FUND! 🌟",
+    "mythicBanner": "💫 MYTHISCHER FUND! 💫"
+  },
+  "sounds": { "hatch": "https://example.com/sfx/hatch.mp3" }
+}
