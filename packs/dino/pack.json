@@ -68,6 +68,7 @@
     { "name": "Giganotosaurus", "file": "giganotosaurus.svg", "rarity": "legendary" },
     { "name": "Therizinosaurus", "file": "therizinosaurus.svg", "rarity": "legendary" },
     { "name": "Troodon", "file": "troodon.svg", "rarity": "legendary" },
+    { "name": "Archeopteryx", "file": "archeopteryx.svg", "rarity": "legendary" },
     { "name": "Quetzalcoatlus", "file": "quetzalcoatlus.svg", "rarity": "mythic" },
     { "name": "Deinocheirus", "file": "deinocheirus.svg", "rarity": "mythic" },
     { "name": "Titanosaurus", "file": "titanosaurus.svg", "rarity": "mythic" },
