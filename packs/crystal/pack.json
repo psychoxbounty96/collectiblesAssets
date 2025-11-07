@@ -65,7 +65,7 @@
     { "name": "Citrin", "rarity": "rare", "file": "citrin.svg" },
     { "name": "Onyx", "rarity": "epic", "file": "onyx.svg" },
     { "name": "Obsidian", "rarity": "epic", "file": "obsidian.svg" },
-    { "name": "Ametrin", "rarity": "epic", "file": "cametrin.svg" },
+    { "name": "Ametrin", "rarity": "epic", "file": "ametrin.svg" },
     { "name": "Mondstein", "rarity": "legendary", "file": "mondstein.svg" },
     { "name": "Blutkristall", "rarity": "legendary", "file": "blutkristall.svg" },
     { "name": "Sternenkristall", "rarity": "mythic", "file": "sternenkristall.svg" },
