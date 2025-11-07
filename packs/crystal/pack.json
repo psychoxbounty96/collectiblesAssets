@@ -30,7 +30,7 @@
   },
 
   "effects": {
-    "particleColor": "#66ffff",
+    "particleColor": "",
     "particleCount": 18
   },
 
