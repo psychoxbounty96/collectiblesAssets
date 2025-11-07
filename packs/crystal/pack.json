@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "engine_min_version": "6.6.6",
   "template": "crystalReveal",
+  "allow_recolor": false,
 
   "asset_label": "Kristall",
   "commands": ["!mine", "!kristall"],
