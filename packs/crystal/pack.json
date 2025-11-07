@@ -38,7 +38,7 @@
     "rock": "containerAssets/rock.svg",
     "pickaxe": "containerAssets/pickaxe.svg",
     "crack1": "containerAssets/rock_cracked.svg",
-    "crack2": "containerAssets/rock_broken.svg",
+    "crack2": "containerAssets/rock_br_li.svg",
     "burst": "containerAssets/light.svg",
     "sparkles": "containerAssets/sparkle.svg"
   },
