@@ -55,7 +55,7 @@
   },
 
   "assets": [
-    { "name": "Quarz", "rarity": "common", "file": "quartz.svg" },
+    { "name": "Quarz", "rarity": "common", "file": "quarz.svg" },
     { "name": "Amethyst", "rarity": "common", "file": "amethyst.svg" },
     { "name": "Saphir", "rarity": "common", "file": "saphir.svg" },
     { "name": "Smaragd", "rarity": "common", "file": "smaragd.svg" },
