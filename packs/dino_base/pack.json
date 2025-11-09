@@ -51,8 +51,8 @@
   },
 
   "texts": {
-    "foundItem": "💎 {user} hat einen mysteriösen Stein gefunden…",
-    "revealResult": "→ Es war ein {rarity}er {asset}!"
+     "foundItem": "🦕 {user} hat ein {rarity}es {assetLabel}-Ei gefunden!",
+    "revealResult": "→ Es schlüpfte zu: {asset}",
   },
 
   "assets": [
