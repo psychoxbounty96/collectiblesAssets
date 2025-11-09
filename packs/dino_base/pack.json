@@ -1,16 +1,16 @@
 {
-  /* === BASIS-INFO ==================================================== */
-  "pack_id": "dino",                        // interner eindeutiger Identifier (nur Kleinbuchstaben, keine Leerzeichen)
-  "pack_name": "Dino Pack V2",              // Anzeigename (wird im Log & bei Fortschritt genutzt)
+ 
+  "pack_id": "dino",                        
+  "pack_name": "Dino Pack V2",             
   "version": "1.0.0",
-  "engine_min_version": "7.1.0",            // Mindestversion der Engine
-  "template": "eggReveal",                  // Animationstemplate aus der Engine
-  "allow_recolor": true,                    // erlaubt farbige Anpassung der SVGs je nach Seltenheit
-  "asset_label": "Ei",                      // wird in Texten verwendet („ein legendäres Ei!“)
-  "commands": ["!dino", "!egg"],            // Chatbefehle, die das Pack auslösen
+  "engine_min_version": "7.1.0",            
+  "template": "eggReveal",                 
+  "allow_recolor": true,                    
+  "asset_label": "Ei",                      
+  "commands": ["!dino", "!egg"],           
 
-  /* === DROP-LOGIK ==================================================== */
-  "rarity_weights": {                       // Dropwahrscheinlichkeiten in Prozent (Summe = 100)
+  
+  "rarity_weights": {                      
     "common": 55,
     "rare": 25,
     "epic": 12,
@@ -18,7 +18,7 @@
     "mythic": 2
   },
 
-  /* === RARITY-DEFINITIONEN =========================================== */
+  
   "rarities": {
     "common":    { "color": "#a7b2a9", "label": "Gewöhnlich" },
     "rare":      { "color": "#80d0ff", "label": "Selten" },
@@ -27,42 +27,41 @@
     "mythic":    { "color": "#ff66cc", "label": "Mythisch" }
   },
 
-  /* === ANIMATIONSPARAMETER =========================================== */
+  
   "animation": {
-    "shakeDuration": 3200,                  // Dauer der Eierschüttel-Animation
-    "revealDelay": 800,                     // Wartezeit bis zur Enthüllung
-    "fadeOutDelay": 2000                    // Zeit bis zum Ausblenden nach Reveal
+    "shakeDuration": 3200,                 
+    "revealDelay": 800,                   
+    "fadeOutDelay": 2000                  
   },
 
-  /* === EFFEKTE ======================================================= */
+ 
   "effects": {
-    "particleColor": "",                    // "" = automatisch anhand rarityColor
-    "particleCount": 14                     // Anzahl der Partikel beim Schlüpfen
+    "particleColor": "",                    
+    "particleCount": 14                     
   },
 
-  /* === EI-ASSETS ===================================================== */
+ 
   "egg_assets": {
-    "base": "eggAssets/egg_base.svg",       // Grund-Ei
-    "cracks": [                             // Risse, die nacheinander erscheinen
+    "base": "eggAssets/egg_base.svg",      
+    "cracks": [                           
       "eggAssets/egg_crack1.svg",
       "eggAssets/egg_crack2.svg"
     ]
   },
 
-  /* === SOUNDS ======================================================== */
+  
   "sounds": {
-    "hatch": "sounds/hatch.mp3",            // Haupt-Sound beim Schlüpfen
-    "reveal": "sounds/reveal.mp3",          // optional: Sound beim Anzeigen des Dinos
-    "charge": "sounds/charge.mp3"           // optional: Vorbereitungs-/Lade-Sound
+    "hatch": "sounds/hatch.mp3",            
+    "reveal": "sounds/reveal.mp3",          
+    "charge": "sounds/charge.mp3"          
   },
 
-  /* === TEXTE ========================================================= */
+ 
   "texts": {
     "foundItem": "🦕 {user} hat ein mysteriöses {rarity}es {assetLabel} entdeckt!",
     "revealResult": "→ Es schlüpfte: {asset} ({rarity})!"
   },
 
-  /* === ASSETS ======================================================== */
   "assets": [
     { "name": "Triceratops", "rarity": "common",    "file": "triceratops.svg" },
     { "name": "Stegosaurus", "rarity": "rare",      "file": "stegosaurus.svg" },
@@ -71,7 +70,7 @@
     { "name": "Archeopteryx", "rarity": "mythic",   "file": "archeopteryx.svg" }
   ],
 
-  /* === METADATEN ==================================================== */
+  
   "meta": {
     "author": "PsYchOxBoUnTy96",
     "created": "2025-11-09",
