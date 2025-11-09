@@ -17,11 +17,11 @@
   },
 
   "rarities": {
-    "common": { "color": "#9fa4b0", "label": "gewöhnlich" },
-    "rare": { "color": "#4db0ff", "label": "selten" },
-    "epic": { "color": "#b974ff", "label": "episch" },
-    "legendary": { "color": "#ffb43b", "label": "legendär" },
-    "mythic": { "color": "#ff66cc", "label": "mythisch" }
+    "common": { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare": { "label": "Selten", "color": "#5ac0e2" },
+    "epic": { "label": "Episch", "color": "#a673ff" },
+    "legendary": { "label": "Legendär", "color": "#ffb43b" },
+    "mythic": { "label": "Mythisch", "color": "#ff66cc" }
   },
 
   "animation": {
