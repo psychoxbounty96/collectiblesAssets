@@ -58,7 +58,7 @@
 
  
   "texts": {
-    "foundItem": "🦕 {user} hat ein mysteriöses {rarity}es {assetLabel} entdeckt!",
+    "foundItem": "🦕 {user} hat ein {rarity}es {assetLabel}-Ei gefunden!",
     "revealResult": "→ Es schlüpfte: {asset} ({rarity})!"
   },
 
