@@ -46,7 +46,7 @@
   },
 
   "egg_assets": {
-    "base": "containerAssets/containerFallback.svg",
+    "base": "containerAssets/fallbackContainer.svg",
     "cracks": [
       
     ]
