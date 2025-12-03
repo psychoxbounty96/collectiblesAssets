@@ -1,1 +1,88 @@
+{
+  "pack_id": "fallback",
+  "collection_id": "demo_collectibles",
 
+  "pack_name": "Fallback Pack",
+  "version": "1.0",
+  "engine_min_version": "1.0",
+
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Demo-Asset",
+  "allow_recolor": false,
+
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das Fallback-Pack.",
+
+  "commands": ["!demo],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 25,
+    "epic": 10,
+    "legendary": 4,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+  },
+
+  "animation": {
+    "shakeDuration": 3200,
+    "revealDelay": 800,
+    "fadeOutDelay": 2000
+  },
+
+  "effects": {
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
+  },
+
+  "egg_assets": {
+    "base": "containerAssets/containerFallback.svg",
+    "cracks": [
+      "eggAssets/egg_crack1.svg",
+      "eggAssets/egg_crack2.svg"
+    ]
+  },
+
+  "sounds": {
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
+  },
+
+  "texts": {
+    "foundItem": "🦕 {user} hat ein {rarity}es {assetLabel}-Ei gefunden!",
+    "revealResult": "→ Es schlüpfte zu: {asset}"
+  },
+
+  "assets": [
+    { "name": "Triceratops",      "file": "triceratops.svg",     "rarity": "common" },
+    { "name": "Stegosaurus",      "file": "stegosaurus.svg",     "rarity": "common" },
+    { "name": "Parasaurus",       "file": "parasaurus.svg",      "rarity": "common" },
+    
+    { "name": "Velociraptor",     "file": "velociraptor.svg",    "rarity": "rare" },
+    { "name": "Pachy",            "file": "pachy.svg",           "rarity": "rare" },
+    { "name": "Gallimimus",       "file": "gallimimus.svg",      "rarity": "rare" },
+    
+    { "name": "Spinosaurus",      "file": "spinosaurus.svg",     "rarity": "epic" },
+    { "name": "Baryonyx",         "file": "baryonyx.svg",        "rarity": "epic" },
+    { "name": "Carnotaurus",      "file": "carnotaurus.svg",     "rarity": "epic" },
+
+    { "name": "T-Rex",            "file": "trex.svg",            "rarity": "legendary" },
+    { "name": "Giganotosaurus",   "file": "giganotosaurus.svg",  "rarity": "legendary" },
+    { "name": "Therizinosaurus",  "file": "therizinosaurus.svg", "rarity": "legendary" },
+    
+    { "name": "Quetzalcoatlus",   "file": "quetzalcoatlus.svg",  "rarity": "mythic" },
+    { "name": "Deinocheirus",     "file": "deinocheirus.svg",    "rarity": "mythic" },
+    { "name": "Titanosaurus",     "file": "titanosaurus.svg",    "rarity": "mythic" }
+    
+  ]
+}
