@@ -4,7 +4,7 @@
 
   "pack_name": "Xmas_Dino_DLC1 Pack",
   "version": "1.0.0",
-  "engine_min_version": "7.1.3",
+  "engine_min_version": "1.0.0",
 
   "template": "eggReveal",
   "animation_template": "eggReveal",
