@@ -1,1 +1,88 @@
+{
+  "pack_id": "schlueppa_base",
+  "collection_id": "schlueppa_collectibles",
 
+  "pack_name": "Schlüppa Pack",
+  "version": "1.1.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Schlüppi",
+  "allow_recolor": false,
+
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das Schlüppi-Pack mit mehreren Sammel-Assets. Exklusiv für xErdbeerKaese88x",
+
+  "commands": ["!schlüppa"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 25,
+    "epic": 10,
+    "legendary": 4,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+  },
+
+  "animation": {
+    "shakeDuration": 3200,
+    "revealDelay": 800,
+    "fadeOutDelay": 2000
+  },
+
+  "effects": {
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
+  },
+
+  "egg_assets": {
+    "base": "containerAssets/basket.svg",
+    "cracks": [
+      "containerAssets/fliegendeWaesche.svg",
+      "containerAssets/poof.svg"
+    ]
+  },
+
+  "sounds": {
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} durchsucht den Wäschekorb!",
+    "revealResult": "→ Es ist ein: {asset}"
+  },
+
+  "assets": [
+    { "name": "Erdbeer Rüschentraum",      "file": "erdbeerRueschentraum.svg",     "rarity": "common" },
+    { "name": "Käse Boxer",      "file": "kaeseBoxer.svg",     "rarity": "common" },
+    { "name": "Herz Höschen",       "file": "herzchenString.svg",      "rarity": "common" },
+    
+    { "name": "High Waist Majestät",     "file": "erdbeerHighWaist.svg",    "rarity": "rare" },
+    { "name": "Schweizer Schlüpp-Biss",            "file": "kaeseSlip.svg",           "rarity": "rare" },
+    { "name": "Gallimimus",       "file": "gallimimus.svg",      "rarity": "rare" },
+    
+    { "name": "Beerenfunkel Schleifenpracht",      "file": "geschenkSchlueppa.svg",     "rarity": "epic" },
+    { "name": "Käsekrönchen Kampfrock",         "file": "kaeseGigant.svg",        "rarity": "epic" },
+    { "name": "Herzschutz Höslein",      "file": "panzerSchlueppa.svg",     "rarity": "epic" },
+
+    { "name": "Galaxy Spitzenflügler",            "file": "weltraumSchlueppa.svg",            "rarity": "legendary" },
+    { "name": "Geschmolzener Käsekoloss",   "file": "schmelzKaese.svg",  "rarity": "legendary" },
+    { "name": "ErdbeerKäse Hoheitswäsche",  "file": "heldenSchlueppa.svg", "rarity": "legendary" },
+    
+    { "name": "Göttliche Seraphenschlüppi",   "file": "holySchlueppa.svg",  "rarity": "mythic" },
+    { "name": "Abgrundschlüppa",     "file": "demonSchlueppa.svg",    "rarity": "mythic" },
+    { "name": "Chaozy Wirklichkeitsbrecher",     "file": "uralterSchlueppa.svg",    "rarity": "mythic" }
+    
+  ]
+}
