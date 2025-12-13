@@ -41,6 +41,7 @@
 
   "container_assets": {
     "rock": "containerAssets/KisteGeschlossen.svg",
+    "pickaxe": "containerAssets/empty.svg",
     "crack1": "containerAssets/KisteHalbOffen.svg",
     "crack2": "containerAssets/KisteOffen.svg"
   },
