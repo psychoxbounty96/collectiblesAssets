@@ -1,1 +1,76 @@
+{
+  "pack_id": "magic_beta",
+  "collection_id": "magicBeta_collectibles",
 
+  "pack_name": "MagicBeta Pack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "crystalReveal",
+  "animation_template": "crystalReveal",
+  "allow_recolor": false,
+
+  "asset_label": "Item",
+  "commands": ["!magie"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 27,
+    "epic": 10,
+    "legendary": 2,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
+    "rare":      { "color": "#4db0ff", "label": "selten" },
+    "epic":      { "color": "#b974ff", "label": "episch" },
+    "legendary": { "color": "#ffb43b", "label": "legendär" },
+    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
+  },
+
+  "animation": {
+    "chargeDuration": 1250,
+    "fadeOutDelay": 1600
+  },
+
+  "effects": {
+    "particleColor": "",
+    "particleCount": 18
+  },
+
+  "container_assets": {
+    "rock": "containerAssets/KisteGeschlossen.svg",
+    "crack1": "containerAssets/KisteHalbOffen.svg",
+    "crack2": "containerAssets/KisteOffen.svg",
+  },
+
+  "sounds": {
+    "charge": "sounds/charge.mp3",
+    "hit": "sounds/hit.mp3",
+    "break": "sounds/break.mp3",
+    "reveal": "sounds/reveal.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} hat eine magische Kiste gefunden…",
+    "revealResult": "→ Drin war ein {rarity}er {asset}!"
+  },
+
+  "assets": [
+    { "name": "Flüsterbuch der Zauberer",          "rarity": "common",    "file": "Zauberbuch.svg" },
+    { "name": "Glühtrank",       "rarity": "common",    "file": "Zaubertrank.svg" },
+    { "name": "Versiegelte Schriftrolle",         "rarity": "common",    "file": "Schriftrolle.svg" },
+
+    { "name": "Runenring der Fokussierung",          "rarity": "rare",      "file": "Runenring.svg" },
+    { "name": "Amulett des sanften Schutzes",      "rarity": "rare",      "file": "Amulett.svg" },
+    { "name": "Arkane Feder",         "rarity": "rare",      "file": "Feder.svg" },
+
+    { "name": "Zauberstab der Leuchtfunken",           "rarity": "epic",      "file": "Zauberstab.svg" },
+    { "name": "Kristallkugel der Weitsicht",       "rarity": "epic",      "file": "Kristallkugel.svg" },
+
+    { "name": "Schlüssel der arkanen Pforten",      "rarity": "legendary", "file": "Schluessel.svg" },
+
+    { "name": "Hexenhut der uralten Magie",      "rarity": "mythic",    "file": "Hexenhut.svg" }
+  ]
+}
