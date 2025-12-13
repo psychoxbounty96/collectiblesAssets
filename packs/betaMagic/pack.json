@@ -42,7 +42,7 @@
   "container_assets": {
     "rock": "containerAssets/KisteGeschlossen.svg",
     "crack1": "containerAssets/KisteHalbOffen.svg",
-    "crack2": "containerAssets/KisteOffen.svg",
+    "crack2": "containerAssets/KisteOffen.svg"
   },
 
   "sounds": {
