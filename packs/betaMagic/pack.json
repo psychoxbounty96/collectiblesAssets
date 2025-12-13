@@ -55,7 +55,7 @@
 
   "texts": {
     "foundItem": "{user} hat eine magische Kiste gefunden…",
-    "revealResult": "→ Drin war ein {rarity}er {asset}!"
+    "revealResult": "→ Drin war ein {asset}!"
   },
 
   "assets": [
