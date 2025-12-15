@@ -65,7 +65,7 @@
     { "name": "Popcorn Chaos",      "file": "popcorn.svg",     "rarity": "common" },
     { "name": "Keks mit Biss",      "file": "keks.svg",     "rarity": "common" },
     { "name": "Krümel-Chips",       "file": "chips.svg",      "rarity": "common" },
-    { "name": "Salzstangel-Bündel",     "file": "salzstangen.svg",    "rarity": "common" },
+    { "name": "Salzstangel-Bündel",     "file": "salzstange.svg",    "rarity": "common" },
     { "name": "Brezelpause",            "file": "brezel.svg",           "rarity": "common" },
     
     { "name": "Donut",       "file": "donut.svg",      "rarity": "rare" },
