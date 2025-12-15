@@ -6,10 +6,10 @@
   "version": "1.0",
   "engine_min_version": "1.0.0",
 
-  "template": "eggReveal",
-  "animation_template": "eggReveal",
+  "template": "crystalReveal",
+  "animation_template": "crystalReveal",
   "asset_label": "Snacktüte",
-  "allow_recolor": true,
+  "allow_recolor": false,
 
   "author": "PsYchOxBoUnTy96",
   "description": "Das Snack-Pack mit mehreren Sammel-Assets.",
