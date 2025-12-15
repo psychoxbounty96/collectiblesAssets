@@ -1,0 +1,88 @@
+{
+  "pack_id": "snack_base",
+  "collection_id": "snack_collectibles",
+
+  "pack_name": "Snack Pack",
+  "version": "1.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Snacktüte",
+  "allow_recolor": true,
+
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das Snack-Pack mit mehreren Sammel-Assets.",
+
+  "commands": ["!snack"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 25,
+    "epic": 10,
+    "legendary": 4,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+  },
+
+  "animation": {
+    "shakeDuration": 3200,
+    "revealDelay": 800,
+    "fadeOutDelay": 2000
+  },
+
+  "effects": {
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
+  },
+
+  "egg_assets": {
+    "base": "containerAssets/closed.svg",
+    "cracks": [
+      "containerAssets/open.svg",
+      "containerAssets/glow.svg"
+    ]
+  },
+
+  "sounds": {
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} hat ein {rarity}es {assetLabel} gefunden!",
+    "revealResult": "Darin befand sich ein {asset}"
+  },
+
+  "assets": [
+    { "name": "Popcorn Chaos",      "file": "popcorn.svg",     "rarity": "common" },
+    { "name": "Keks mit Biss",      "file": "keks.svg",     "rarity": "common" },
+    { "name": "Krümel-Chips",       "file": "chips.svg",      "rarity": "common" },
+    { "name": "Salzstangel-Bündel",     "file": "salzstangen.svg",    "rarity": "common" },
+    { "name": "Brezelpause",            "file": "brezel.svg",           "rarity": "common" },
+    
+    { "name": "Donut",       "file": "donut.svg",      "rarity": "rare" },
+    { "name": "Schoko-Schmelze",      "file": "schokolade.svg",     "rarity": "rare" },
+    { "name": "schiefer Cupcake",         "file": "cupcake.svg",        "rarity": "rare" },
+    
+    { "name": "Gummibärchen",      "file": "gummibaerchen.svg",     "rarity": "epic" },
+    { "name": "Energy-Katastrophe",            "file": "energy.svg",            "rarity": "epic" },
+    { "name": "Kaffe-Fleckmoment",   "file": "kaffee.svg",  "rarity": "epic" },
+    
+    { "name": "Zuckerrausch",  "file": "suesses.svg", "rarity": "legendary" },
+    { "name": "Letztes Stück Torte",   "file": "torte.svg",  "rarity": "legendary" },
+    
+    { "name": "Geheimsnack",     "file": "mysterysnack.svg",    "rarity": "mythic" },
+    { "name": "Goldener Snack",     "file": "bonbon.svg",    "rarity": "mythic" }
+    
+  ]
+}
