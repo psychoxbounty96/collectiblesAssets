@@ -18,49 +18,47 @@
 
   "rarity_weights": {
     "common": 60,
-    "rare": 25,
+    "rare": 27,
     "epic": 10,
-    "legendary": 4,
+    "legendary": 2,
     "mythic": 1
   },
 
   "rarities": {
-    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
-    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
-    "epic":      { "label": "Episch",     "color": "#a673ff" },
-    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
-    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
+    "rare":      { "color": "#4db0ff", "label": "selten" },
+    "epic":      { "color": "#b974ff", "label": "episch" },
+    "legendary": { "color": "#ffb43b", "label": "legendär" },
+    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
   },
 
   "animation": {
-    "shakeDuration": 3200,
-    "revealDelay": 800,
-    "fadeOutDelay": 2000
+    "chargeDuration": 1250,
+    "fadeOutDelay": 1600
   },
 
   "effects": {
-    "particleCount": 14,
-    "flashColor": "#ffffff",
-    "flashOpacity": 0.4,
-    "particleColor": null
+    "particleColor": "",
+    "particleCount": 18
   },
 
-  "egg_assets": {
-    "base": "containerAssets/closed.svg",
-    "cracks": [
-      "containerAssets/open.svg",
-      "containerAssets/glow.svg"
-    ]
+  "container_assets": {
+    "rock": "containerAssets/closed.svg",
+    "pickaxe": "containerAssets/empty.svg",
+    "crack1": "containerAssets/open.svg",
+    "crack2": "containerAssets/glow.svg"
   },
 
   "sounds": {
-    "hatch": "sounds/hatch.mp3",
-    "reveal": "sounds/rare_drop.mp3"
+    "charge": "sounds/charge.mp3",
+    "hit": "sounds/hit.mp3",
+    "break": "sounds/break.mp3",
+    "reveal": "sounds/reveal.mp3"
   },
 
   "texts": {
-    "foundItem": "{user} hat ein {rarity}es {assetLabel} gefunden!",
-    "revealResult": "Darin befand sich ein {asset}"
+    "foundItem": "💎 {user} hat einen mysteriösen Stein gefunden…",
+    "revealResult": "→ Es war ein {rarity}er {asset}!"
   },
 
   "assets": [
