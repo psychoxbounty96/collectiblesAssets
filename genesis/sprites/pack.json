@@ -4,7 +4,7 @@
   "render": {
     "canvas": { "width": 329, "height": 180 },
     "sprite": { "frameWidth": 24, "frameHeight": 36 },
-    "scale": 4,
+    "scale": 10,
     "smoothing": false,
     "anchor": { "x": 0.5, "y": 1.0 }
   },
