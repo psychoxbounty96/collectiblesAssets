@@ -10,10 +10,10 @@
   },
   "progression": {
     "stages": [
-      { "id": 0, "variants": [ { "when": {}, "sprite": "test/sprites/stage0/SoulSheet.png" } ] },
+      { "id": 0, "variants": [ { "when": {}, "sprite": "genesis/sprites/stage0/SoulSheet.png" } ] },
       { "id": 1, "variants": [
-        { "when": { "alignment": "light" }, "sprite": "test/sprites/stage1/1LightSheet.png" },
-        { "when": { "alignment": "dark" }, "sprite": "test/sprites/stage1/1DarkSheet.png" }
+        { "when": { "alignment": "light" }, "sprite": "genesis/sprites/stage1/1LightSheet.png" },
+        { "when": { "alignment": "dark" }, "sprite": "genesis/sprites/stage1/1DarkSheet.png" }
       ] }
     ]
   },
