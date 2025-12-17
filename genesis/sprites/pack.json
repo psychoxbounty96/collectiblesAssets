@@ -2,7 +2,7 @@
   "id": "default_pack",
   "version": "0.1.0",
   "render": {
-    "canvas": { "width": 329, "height": 180 },
+    "canvas": { "width": 1920, "height": 1080 },
     "sprite": { "frameWidth": 24, "frameHeight": 36 },
     "scale": 10,
     "smoothing": false,
