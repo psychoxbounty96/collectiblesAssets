@@ -14,6 +14,11 @@
       { "id": 1, "variants": [
         { "when": { "alignment": "light" }, "sprite": "stage1/1LightSheet.png" },
         { "when": { "alignment": "dark" }, "sprite": "stage1/1DarkSheet.png" }
+      ] },
+      { "id": 2, "variants": [
+        { "when": { "alignment": "lightphysical" }, "sprite": "stage2/2LightPhysic.png" },
+        { "when": { "alignment": "darkphysical" }, "sprite": "stage2/2DarkPhysic.png" },
+        { "when": { "alignment": "magic" }, "sprite": "stage1/1DarkSheet.png" }
       ] }
     ]
   },
