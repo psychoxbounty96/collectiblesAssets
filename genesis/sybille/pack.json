@@ -1,0 +1,52 @@
+{
+  "id": "dog_xmas",
+  "version": "0.1.0",
+
+  "assets": {
+    "spritesheet": "sheet.png"
+  },
+
+  "render": {
+    "canvas": { "width": 800, "height": 450 },
+    "sprite": { "frameWidth": 24, "frameHeight": 16 },
+    "scale": 8,
+    "smoothing": false,
+    "anchor": { "x": 0.08, "y": 0.98 }
+  },
+
+  "animations": {
+    "format": { "type": "grid", "columns": 8, "rows": 6 },
+
+    "clips": {
+      "idle":      { "row": 0, "frames": [0,1,2,3], "fps": 5, "loop": true },
+      "idle_alt":  { "row": 1, "frames": [0,1,2,3], "fps": 5, "loop": true },
+      "sleep":     { "row": 2, "frames": [0,1,2,3], "fps": 3, "loop": true },
+      "idle_rare": { "row": 3, "frames": [0,1,2,3], "fps": 5, "loop": false },
+
+      "react_sub":    { "row": 4, "frames": [0,1,2,3,4,5], "fps": 8, "loop": false },
+      "react_follow": { "row": 5, "frames": [0,1,2,3,4,5,6,7], "fps": 10, "loop": false }
+    },
+
+    "behavior": {
+      "idleMix": [
+        { "clip": "idle", "weight": 0.70 },
+        { "clip": "idle_alt", "weight": 0.25 },
+        { "clip": "idle_rare", "weight": 0.05 }
+      ],
+      "sleepAfterSeconds": 240
+    }
+  },
+
+  "events": {
+    "follow": { "clip": "react_follow", "priority": 10, "cooldownMs": 8000 },
+    "sub":    { "clip": "react_sub", "priority": 20, "cooldownMs": 5000 },
+
+    "bits":   { "clip": "react_follow", "priority": 12, "cooldownMs": 4000, "minAmount": 100 },
+
+    "redemptionsFallback": { "clip": "idle_rare", "priority": 15, "cooldownMs": 2000 },
+
+    "redemptions": {
+      "lick": { "clip": "react_sub", "priority": 30, "cooldownMs": 2000 }
+    }
+  }
+}
