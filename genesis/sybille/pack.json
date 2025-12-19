@@ -1,14 +1,14 @@
 {
-  "id": "dog_xmas",
+  "id": "sybille",
   "version": "0.1.0",
 
   "assets": {
-    "spritesheet": "sheet.png"
+    "spritesheet": "sybilleSheet.png"
   },
 
   "render": {
     "canvas": { "width": 800, "height": 450 },
-    "sprite": { "frameWidth": 24, "frameHeight": 16 },
+    "sprite": { "frameWidth": 51, "frameHeight": 32 },
     "scale": 8,
     "smoothing": false,
     "anchor": { "x": 0.08, "y": 0.98 }
@@ -23,8 +23,9 @@
       "sleep":     { "row": 2, "frames": [0,1,2,3], "fps": 3, "loop": true },
       "idle_rare": { "row": 3, "frames": [0,1,2,3], "fps": 5, "loop": false },
 
-      "react_sub":    { "row": 4, "frames": [0,1,2,3,4,5], "fps": 8, "loop": false },
-      "react_follow": { "row": 5, "frames": [0,1,2,3,4,5,6,7], "fps": 10, "loop": false }
+      "react_follow": { "row": 4, "frames": [0,1,2,3,4,5,6,7,8], "fps": 10, "loop": false },
+      "react_sub":    { "row": 5, "frames": [0,1,2,3,4,5,6,7], "fps": 8, "loop": false }
+      
     },
 
     "behavior": {
@@ -33,7 +34,7 @@
         { "clip": "idle_alt", "weight": 0.25 },
         { "clip": "idle_rare", "weight": 0.05 }
       ],
-      "sleepAfterSeconds": 240
+      "sleepAfterSeconds": 60
     }
   },
 
