@@ -29,17 +29,17 @@
     },
 
       "behavior": {
-        "idleHoldSeconds": { "min": 6, "max": 14 }
+        "idleHoldSeconds": { "min": 6, "max": 14 },
 
-    "idleMix": [
-      { "clip": "idle", "weight": 0.70 },
-      { "clip": "idle_alt", "weight": 0.25 },
-      { "clip": "idle_rare", "weight": 0.05 }
-    ],
-    "sleepAfterSeconds": 60,
-    "maxAutoSleepSeconds": 120,
-    "wakeGraceSeconds": 30
-  }
+      "idleMix": [
+        { "clip": "idle", "weight": 0.70 },
+        { "clip": "idle_alt", "weight": 0.25 },
+        { "clip": "idle_rare", "weight": 0.05 }
+      ],
+      "sleepAfterSeconds": 60,
+      "maxAutoSleepSeconds": 120,
+      "wakeGraceSeconds": 30
+    }
 
   },
 
