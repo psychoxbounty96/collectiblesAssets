@@ -28,14 +28,17 @@
       
     },
 
-    "behavior": {
-      "idleMix": [
-        { "clip": "idle", "weight": 0.70 },
-        { "clip": "idle_alt", "weight": 0.25 },
-        { "clip": "idle_rare", "weight": 0.05 }
-      ],
-      "sleepAfterSeconds": 60
-    }
+      "behavior": {
+    "idleMix": [
+      { "clip": "idle", "weight": 0.70 },
+      { "clip": "idle_alt", "weight": 0.25 },
+      { "clip": "idle_rare", "weight": 0.05 }
+    ],
+    "sleepAfterSeconds": 60,
+    "maxAutoSleepSeconds": 120,
+    "wakeGraceSeconds": 30
+  }
+
   },
 
   "events": {
