@@ -18,21 +18,19 @@
     "format": { "type": "grid", "columns": 8, "rows": 6 },
 
     "clips": {
-      "idle":      { "row": 0, "frames": [0,1,2,3], "fps": 4, "loop": true },
-      "idle_alt":  { "row": 1, "frames": [0,1,2,3], "fps": 4, "loop": true },
-      "idle_rare": { "row": 2, "frames": [0,1,2,3], "fps": 4, "loop": false },
-      "sleep":     { "row": 3, "frames": [0,1,2,3], "fps": 2, "loop": true },
+      "idle":         { "row": 0, "frames": [0, 1, 2, 3], "fps": 4, "loop": true },
+      "idle_alt":     { "row": 1, "frames": [0, 1, 2, 3], "fps": 4, "loop": true },
+      "idle_rare":    { "row": 2, "frames": [0, 1, 2, 3], "fps": 4, "loop": false },
+      "sleep":        { "row": 3, "frames": [0, 1, 2, 3], "fps": 2, "loop": true },
 
-      "react_follow": { "row": 4, "frames": [0,1,2,3,4,5,6,7], "fps": 10, "loop": false },
-      "react_sub":    { "row": 5, "frames": [0,1,2,3,4,5,6], "fps": 8, "loop": false }
-      
+      "react_follow": { "row": 4, "frames": [0, 1, 2, 3, 4, 5, 6, 7], "fps": 10, "loop": false },
+      "react_sub":    { "row": 5, "frames": [0, 1, 2, 3, 4, 5, 6], "fps": 8, "loop": false }
     },
 
-      "behavior": {
-        "idleHoldSeconds": { "min": 6, "max": 14 },
-
+    "behavior": {
+      "idleHoldSeconds": { "min": 6, "max": 14 },
       "idleMix": [
-        { "clip": "idle", "weight": 0.70 },
+        { "clip": "idle", "weight": 0.7 },
         { "clip": "idle_alt", "weight": 0.25 },
         { "clip": "idle_rare", "weight": 0.05 }
       ],
@@ -40,14 +38,13 @@
       "maxAutoSleepSeconds": 120,
       "wakeGraceSeconds": 30
     }
-
   },
 
   "events": {
     "follow": { "clip": "react_follow", "priority": 10, "cooldownMs": 8000 },
-    "sub":    { "clip": "react_sub", "priority": 20, "cooldownMs": 5000 },
+    "sub": { "clip": "react_sub", "priority": 20, "cooldownMs": 5000 },
 
-    "bits":   { "clip": "react_follow", "priority": 12, "cooldownMs": 4000, "minAmount": 100 },
+    "bits": { "clip": "react_follow", "priority": 12, "cooldownMs": 4000, "minAmount": 100 },
 
     "redemptionsFallback": { "clip": "idle_rare", "priority": 15, "cooldownMs": 2000 },
 
