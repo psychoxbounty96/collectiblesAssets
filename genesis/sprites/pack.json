@@ -61,9 +61,9 @@
   	  "idleSwitchSecondsMax": 18,
 
   "idleMix": [
-    { "clip": "idle", "weight": 0.65 },
-    { "clip": "idle_alt", "weight": 0.27 },
-    { "clip": "idle_rare", "weight": 0.08 }
+    { "clip": "idle", "weight": 0.80 },
+    { "clip": "idle_alt", "weight": 0.25 },
+    { "clip": "idle_rare", "weight": 0.05 }
   ],
   "sleepAfterSeconds": 60,
 
