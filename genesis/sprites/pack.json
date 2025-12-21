@@ -4,7 +4,7 @@
   "version": "0.1.0",
 
   "render": {
-    "canvas": { "width": 256, "height": 256 },
+    "canvas": { "width": 512, "height": 512},
     "sprite": { "frameWidth": 16, "frameHeight": 16 },
     "scale": 8,
     "smoothing": false,
