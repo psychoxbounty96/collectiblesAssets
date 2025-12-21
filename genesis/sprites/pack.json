@@ -58,7 +58,7 @@
 
     "behavior": {
       "idleSwitchSecondsMin": 8,
-  	  "idleSwitchSecondsMax": 18
+  	  "idleSwitchSecondsMax": 18,
 
   "idleMix": [
     { "clip": "idle", "weight": 0.65 },
