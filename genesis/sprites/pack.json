@@ -62,7 +62,7 @@
     { "clip": "idle_alt", "weight": 0.27 },
     { "clip": "idle_rare", "weight": 0.08 }
   ],
-  "sleepAfterSeconds": 180,
+  "sleepAfterSeconds": 60,
 
   "sleepMaxSeconds": 120,
   "wakeBurstSeconds": 15
