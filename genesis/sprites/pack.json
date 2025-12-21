@@ -1,37 +1,68 @@
 {
-  "id": "default_pack",
+  "id": "genesis_pack_01",
+  "name": "Genesis Pack 01",
   "version": "0.1.0",
+
   "render": {
-    "canvas": { "width": 1920, "height": 1080 },
-    "sprite": { "frameWidth": 24, "frameHeight": 36 },
-    "scale": 10,
+    "canvas": { "width": 256, "height": 256 },
+    "sprite": { "frameWidth": 16, "frameHeight": 16 },
+    "scale": 8,
     "smoothing": false,
     "anchor": { "x": 0.5, "y": 1.0 }
   },
+
   "progression": {
+    "pathRules": [
+      { "atStage": 1, "choose": "alignment", "lockOnSelect": true, "allowed": ["light", "dark"] },
+      { "atStage": 2, "choose": "roleHint", "lockOnSelect": true, "allowed": ["physical", "magic"] }
+    ],
+
     "stages": [
-      { "id": 0, "variants": [ { "when": {}, "sprite": "stage0/SoulSheet.png" } ] },
-      { "id": 1, "variants": [
-        { "when": { "alignment": "light" }, "sprite": "stage1/1LightSheet.png" },
-        { "when": { "alignment": "dark" }, "sprite": "stage1/1DarkSheet.png" }
-      ] },
-      { "id": 2, "variants": [
-        { "when": { "alignment": "lightphysical" }, "sprite": "stage2/2LightPhysic.png" },
-        { "when": { "alignment": "darkphysical" }, "sprite": "stage2/2DarkPhysic.png" },
-        { "when": { "alignment": "magic" }, "sprite": "stage1/1DarkSheet.png" }
-      ] }
+      {
+        "id": 0,
+        "key": "soul",
+        "variants": [
+          { "when": {}, "sprite": "stage0/soul.png" }
+        ]
+      },
+      {
+        "id": 1,
+        "key": "alignment",
+        "variants": [
+          { "when": { "alignment": "dark" }, "sprite": "stage1/darkling.png" },
+          { "when": { "alignment": "light" }, "sprite": "stage1/lightling.png" }
+        ]
+      },
+      {
+        "id": 2,
+        "key": "roleHint",
+        "variants": [
+          { "when": { "alignment": "dark", "roleHint": "physical" }, "sprite": "stage2/darkWarrior.png" },
+          { "when": { "alignment": "dark", "roleHint": "magic" }, "sprite": "stage2/darkMage.png" },
+          { "when": { "alignment": "light", "roleHint": "physical" }, "sprite": "stage2/lightWarrior.png" },
+          { "when": { "alignment": "light", "roleHint": "magic" }, "sprite": "stage2/lightMage.png" }
+        ]
+      }
     ]
   },
+
   "animations": {
     "format": { "type": "grid", "columns": 4, "rows": 4 },
+
     "clips": {
-      "idle": { "row": 0, "frames": [0,1,2,3], "fps": 3, "loop": true },
-      "idle_alt": { "row": 1, "frames": [0,1,2,3], "fps": 2, "loop": true },
-      "sleep": { "row": 2, "frames": [0,1,2,3], "fps": 2, "loop": true }
+      "idle":      { "row": 0, "frames": [0, 1, 2, 3], "fps": 6, "loop": true },
+      "idle_alt":  { "row": 1, "frames": [0, 1, 2, 3], "fps": 5, "loop": true },
+      "idle_rare": { "row": 2, "frames": [0, 1, 2, 3], "fps": 6, "loop": true },
+      "sleep":     { "row": 3, "frames": [0, 1, 2, 3], "fps": 3, "loop": true }
     },
+
     "behavior": {
-      "idleMix": [ { "clip": "idle", "weight": 0.7 }, { "clip": "idle_alt", "weight": 0.3 } ],
-      "sleepAfterSeconds": 180
+      "idleMix": [
+        { "clip": "idle", "weight": 0.80 },
+        { "clip": "idle_alt", "weight": 0.15},
+        { "clip": "idle_rare", "weight": 0.05 }
+      ],
+      "sleepAfterSeconds": 60
     }
   }
 }
