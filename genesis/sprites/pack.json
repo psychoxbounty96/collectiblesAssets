@@ -27,6 +27,7 @@
       },
       {
         "id": 1,
+        "epCost": 10,
         "key": "alignment",
         "variants": [
           { "when": { "alignment": "dark" }, "sprite": "stage1/darkling.png" },
@@ -35,6 +36,7 @@
       },
       {
         "id": 2,
+        "epCost": 20,
         "key": "roleHint",
         "variants": [
           { "when": { "alignment": "dark", "roleHint": "physical" }, "sprite": "stage2/darkWarrior.png" },
