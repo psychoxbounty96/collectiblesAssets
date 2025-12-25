@@ -1,16 +1,19 @@
 {
-  "pack_id": "eumel_beta",
+  "pack_id": "eumelBeta",
   "collection_id": "eumelBeta_collectibles",
 
-  "pack_name": "EumelBeta Pack",
+  "pack_name": "Eumel Beta Pack",
   "version": "1.0.0",
   "engine_min_version": "1.0.0",
 
-  "template": "crystalReveal",
-  "animation_template": "crystalReveal",
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Eumel",
   "allow_recolor": false,
 
-  "asset_label": "Eumel",
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das EumelBeta-Pack mit mehreren Sammel-Assets.",
+
   "commands": ["!eumel"],
 
   "rarity_weights": {
@@ -22,56 +25,58 @@
   },
 
   "rarities": {
-    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
-    "rare":      { "color": "#4db0ff", "label": "selten" },
-    "epic":      { "color": "#b974ff", "label": "episch" },
-    "legendary": { "color": "#ffb43b", "label": "legendär" },
-    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
   },
 
   "animation": {
-    "chargeDuration": 1250,
-    "fadeOutDelay": 1600
+    "shakeDuration": 2000,
+    "revealDelay": 1000,
+    "fadeOutDelay": 1500
   },
 
   "effects": {
-    "particleColor": "",
-    "particleCount": 18
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
   },
 
-  "container_assets": {
-    "rock": "containerAssets/KisteGeschlossen.svg",
-    "pickaxe": "containerAssets/empty.svg",
-    "crack1": "containerAssets/KisteHalbOffen.svg",
-    "crack2": "containerAssets/KisteOffen.svg"
+  "egg_assets": {
+    "base": "eggAssets/busch_start.svg",
+    "cracks": [
+      "eggAssets/busch_mid.svg",
+      "eggAssets/busch_final.svg"
+    ]
   },
 
   "sounds": {
-    "charge": "sounds/charge.mp3",
-    "hit": "sounds/hit.mp3",
-    "break": "sounds/break.mp3",
-    "reveal": "sounds/reveal.mp3"
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
   },
 
   "texts": {
-    "foundItem": "{user} hat eine magische Kiste gefunden…",
-    "revealResult": "→ Drin war ein {asset}!"
+    "foundItem": "{user} sucht nach {assetLabel}!",
+    "revealResult": "Gefunden wurde ein {asset}"
   },
 
   "assets": [
-    { "name": "Flüsterbuch der Zauberer",          "rarity": "common",    "file": "Zauberbuch.svg" },
-    { "name": "Glühtrank",       "rarity": "common",    "file": "Zaubertrank.svg" },
-    { "name": "Versiegelte Schriftrolle",         "rarity": "common",    "file": "Schriftrolle.svg" },
+    { "name": "Freundlicher Eumel",      "file": "eumelBlume.svg",     "rarity": "common" },
+    { "name": "Großzügiger Eumel",      "file": "eumelDiamant.svg",     "rarity": "common" },
+    { "name": "Verliebter Eumel",       "file": "eumelHerz.svg",      "rarity": "common" },
+    
+    { "name": "Zocker-Eumel",     "file": "eumelGamer.svg",    "rarity": "rare" },
+    { "name": "Tierlieb-Eumel",            "file": "eumelSchildi.svg",           "rarity": "rare" },
+    { "name": "Skater-Eumel",       "file": "eumelSkateboard.svg",      "rarity": "rare" },
+    
+    { "name": "Rebellen-Eumel",      "file": "eumelMittelfinger.svg",     "rarity": "epic" },
+    { "name": "Abenteurer-Eumel",         "file": "eumelPeitsche.svg",        "rarity": "epic" },
 
-    { "name": "Runenring der Fokussierung",          "rarity": "rare",      "file": "Runenring.svg" },
-    { "name": "Amulett des sanften Schutzes",      "rarity": "rare",      "file": "Amulett.svg" },
-    { "name": "Arkane Feder",         "rarity": "rare",      "file": "Feder.svg" },
-
-    { "name": "Zauberstab der Leuchtfunken",           "rarity": "epic",      "file": "Zauberstab.svg" },
-    { "name": "Kristallkugel der Weitsicht",       "rarity": "epic",      "file": "Kristallkugel.svg" },
-
-    { "name": "Schlüssel der arkanen Pforten",      "rarity": "legendary", "file": "Schluessel.svg" },
-
-    { "name": "Hexenhut der uralten Magie",      "rarity": "mythic",    "file": "Hexenhut.svg" }
+    { "name": "Katzenreiter-Eumel",            "file": "eumelReiter.svg",            "rarity": "legendary" },
+    
+    { "name": "Juwelendieb-Eumel",   "file": "eumelDieb.svg",  "rarity": "mythic" }
   ]
 }
