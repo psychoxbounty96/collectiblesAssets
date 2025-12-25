@@ -46,10 +46,10 @@
   },
 
   "egg_assets": {
-    "base": "eggAssets/busch_start.svg",
+    "base": "containerAssets/busch_start.svg",
     "cracks": [
-      "eggAssets/busch_mid.svg",
-      "eggAssets/busch_final.svg"
+      "containerAssets/busch_mid.svg",
+      "containerAssets/busch_final.svg"
     ]
   },
 
