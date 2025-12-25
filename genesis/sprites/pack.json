@@ -52,7 +52,7 @@
     "format": { "type": "grid", "columns": 4, "rows": 4 },
 
     "evolution": {
-      "sprite": "stage0/evolve.png"
+      "sprite": "stage0/Stage0-1_Evo_Animation.png"
     },
 
     "clips": {
