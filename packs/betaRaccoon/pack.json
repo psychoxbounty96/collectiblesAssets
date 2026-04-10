@@ -49,7 +49,7 @@
     "base": "containerAssets/container.svg",
     "cracks": [
       "containerAssets/container.svg",
-      "containerAssets/.svg"
+      "containerAssets/Silhouette.svg"
     ]
   },
 
