@@ -33,9 +33,9 @@
   },
 
   "animation": {
-    "shakeDuration": 2000,
-    "revealDelay": 1000,
-    "fadeOutDelay": 1500
+    "shakeDuration": 4000,
+    "revealDelay": 2000,
+    "fadeOutDelay": 3000
   },
 
   "effects": {
