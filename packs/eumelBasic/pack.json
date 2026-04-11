@@ -1,1 +1,87 @@
+{
+  "pack_id": "eumelBeta",
+  "collection_id": "eumelBeta_collectibles",
 
+  "pack_name": "Eumel Beta Pack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Eumel",
+  "allow_recolor": false,
+
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das EumelBeta-Pack mit mehreren Sammel-Assets.",
+
+  "commands": ["!eumel"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 25,
+    "epic": 10,
+    "legendary": 4,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+  },
+
+  "animation": {
+    "shakeDuration": 2000,
+    "revealDelay": 1000,
+    "fadeOutDelay": 1500
+  },
+
+  "effects": {
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
+  },
+
+  "egg_assets": {
+    "base": "containerAssets/busch_start.svg",
+    "cracks": [
+      "containerAssets/busch_mid.svg",
+      "containerAssets/busch_final.svg"
+    ]
+  },
+
+  "sounds": {
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} sucht nach {assetLabel}!",
+    "revealResult": "Gefunden wurde ein {asset}"
+  },
+
+  "assets": [
+    { "name": "Darki-Eumel",      "file": "Darkieumel.svg",     "rarity": "common" },
+    { "name": "Schulanfänger-Eumel",      "file": "Eumel.svg",     "rarity": "common" },
+    { "name": "Rene-Eumel",       "file": "Reneeumel.svg",      "rarity": "common" },
+    { "name": "Pinguineumel",       "file": "Pinguineumel.svg",      "rarity": "common" },
+    
+    { "name": "Döner-Eumel",     "file": "Donereumel.svg",    "rarity": "rare" },
+    { "name": "Eumelhase",            "file": "Eumelhase.svg",           "rarity": "rare" },
+    { "name": "Obsteumel",       "file": "Obsteumel.svg",      "rarity": "rare" },
+    
+    { "name": "Bobbycar-Eumel",      "file": "Eumelbobbycar.svg",     "rarity": "epic" },
+    { "name": "Mexikaner-Eumel",         "file": "Eumelmexikaner.svg",        "rarity": "epic" },
+    { "name": "Rollerfahrer-Eumel",         "file": "Eumelroller.svg",        "rarity": "epic" },
+
+    { "name": "Fußballstar-Eumel",            "file": "Eumelfussballer.svg",            "rarity": "legendary" },
+    { "name": "Seuchen-Eumel",            "file": "Seucheneumel.svg",            "rarity": "legendary" },
+    
+    { "name": "Gangster-Eumel",   "file": "Eumelgangster.svg",  "rarity": "mythic" },
+    { "name": "Superhelden-Eumel",   "file": "Eumelheld.svg",  "rarity": "mythic" },
+    { "name": "Engels-Eumel",   "file": "Himmlischer_Eumel.svg",  "rarity": "mythic" }
+  ]
+}
