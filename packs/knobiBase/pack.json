@@ -61,24 +61,27 @@
   },
 
   "assets": [
-    { "name": "Quarz",          "rarity": "common",    "file": "quarz.svg" },
-    { "name": "Amethyst",       "rarity": "common",    "file": "amethyst.svg" },
-    { "name": "Saphir",         "rarity": "common",    "file": "saphir.svg" },
-    { "name": "Smaragd",        "rarity": "common",    "file": "smaragd.svg" },
-    { "name": "Topas",          "rarity": "common",    "file": "topas.svg" },
+    { "name": "Knöllchen",          "rarity": "common",    "file": "Knoellchen.svg" },
+    { "name": "Schlafmütze",       "rarity": "common",    "file": "Schlafmütze.svg" },
+    { "name": "Knobi-Koch",         "rarity": "common",    "file": "Koch.svg" },
+    { "name": "Gärtner-Knobi",        "rarity": "common",    "file": "Gärtner.svg" },
+    { "name": "Dino-Knobi",          "rarity": "common",    "file": "Dino.svg" },
+    { "name": "Bienchen",          "rarity": "common",    "file": "Biene.svg" },
 
-    { "name": "Rubin",          "rarity": "rare",      "file": "rubin.svg" },
-    { "name": "Aquamarin",      "rarity": "rare",      "file": "aquamarin.svg" },
-    { "name": "Citrin",         "rarity": "rare",      "file": "citrin.svg" },
+    { "name": "Ritter von Knoblingen",          "rarity": "rare",      "file": "Ritter.svg" },
+    { "name": "Knobi-Ninja",      "rarity": "rare",      "file": "Ninja.svg" },
+    { "name": "Knobi-Wikinger",         "rarity": "rare",      "file": "Wikinger.svg" },
+    { "name": "Knobi-Dieb",         "rarity": "rare",      "file": "Dieb.svg" },
 
-    { "name": "Onyx",           "rarity": "epic",      "file": "onyx.svg" },
-    { "name": "Obsidian",       "rarity": "epic",      "file": "obsidian.svg" },
-    { "name": "Ametrin",        "rarity": "epic",      "file": "ametrin.svg" },
+    { "name": "Sonnenbrillen-Knobi",           "rarity": "epic",      "file": "Sonnebrille.svg" },
+    { "name": "Pro-Gamer-Knobi",       "rarity": "epic",      "file": "Gamer.svg" },
+    { "name": "Engelsknobi",        "rarity": "epic",      "file": "Engel.svg" },
 
-    { "name": "Mondstein",      "rarity": "legendary", "file": "mondstein.svg" },
-    { "name": "Blutkristall",   "rarity": "legendary", "file": "blutkristall.svg" },
+    { "name": "Glitzerfunkel",      "rarity": "legendary", "file": "Glitzer.svg" },
+    { "name": "Knobi-Liebhaber",      "rarity": "legendary", "file": "Liebhaber.svg" },
+    { "name": "Wahrsagerin",   "rarity": "legendary", "file": "Wahrsager.svg" },
 
-    { "name": "Sternenkristall","rarity": "mythic",    "file": "sternenkristall.svg" },
-    { "name": "Urelement",      "rarity": "mythic",    "file": "urelement.svg" }
+    { "name": "Goldi, die Goldene","rarity": "mythic",    "file": "Goldi.svg" },
+    { "name": "Vampirjägermeister",      "rarity": "mythic",    "file": "Vampirjäger.svg" }
   ]
 }
