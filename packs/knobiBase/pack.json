@@ -1,1 +1,84 @@
+{
+  "pack_id": "knobi_base",
+  "collection_id": "knobi_collectibles",
 
+  "pack_name": "KnobiBasePack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "crystalReveal",
+  "animation_template": "crystalReveal",
+  "allow_recolor": false,
+
+  "asset_label": "Knobi",
+  "commands": ["!knobi", "!knoblauch"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 27,
+    "epic": 10,
+    "legendary": 2,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
+    "rare":      { "color": "#4db0ff", "label": "selten" },
+    "epic":      { "color": "#b974ff", "label": "episch" },
+    "legendary": { "color": "#ffb43b", "label": "legendär" },
+    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
+  },
+
+  "animation": {
+    "chargeDuration": 1250,
+    "fadeOutDelay": 1600
+  },
+
+  "effects": {
+    "particleColor": "",
+    "particleCount": 18
+  },
+
+  "container_assets": {
+    "rock": "containerAssets/container_start.svg",
+    "pickaxe": "containerAssets/giesskanne.svg",
+    "crack1": "containerAssets/container_mid.svg",
+    "crack2": "containerAssets/container_final.svg",
+    "burst": "containerAssets/light.svg",
+    "sparkles": "containerAssets/sparkle.svg"
+  },
+
+  "sounds": {
+    "charge": "sounds/charge.mp3",
+    "hit": "sounds/hit.mp3",
+    "break": "sounds/break.mp3",
+    "reveal": "sounds/reveal.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} gießt den Knoblauch...",
+    "revealResult": "... und erntet {asset}!"
+  },
+
+  "assets": [
+    { "name": "Quarz",          "rarity": "common",    "file": "quarz.svg" },
+    { "name": "Amethyst",       "rarity": "common",    "file": "amethyst.svg" },
+    { "name": "Saphir",         "rarity": "common",    "file": "saphir.svg" },
+    { "name": "Smaragd",        "rarity": "common",    "file": "smaragd.svg" },
+    { "name": "Topas",          "rarity": "common",    "file": "topas.svg" },
+
+    { "name": "Rubin",          "rarity": "rare",      "file": "rubin.svg" },
+    { "name": "Aquamarin",      "rarity": "rare",      "file": "aquamarin.svg" },
+    { "name": "Citrin",         "rarity": "rare",      "file": "citrin.svg" },
+
+    { "name": "Onyx",           "rarity": "epic",      "file": "onyx.svg" },
+    { "name": "Obsidian",       "rarity": "epic",      "file": "obsidian.svg" },
+    { "name": "Ametrin",        "rarity": "epic",      "file": "ametrin.svg" },
+
+    { "name": "Mondstein",      "rarity": "legendary", "file": "mondstein.svg" },
+    { "name": "Blutkristall",   "rarity": "legendary", "file": "blutkristall.svg" },
+
+    { "name": "Sternenkristall","rarity": "mythic",    "file": "sternenkristall.svg" },
+    { "name": "Urelement",      "rarity": "mythic",    "file": "urelement.svg" }
+  ]
+}
