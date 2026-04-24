@@ -67,21 +67,29 @@
     { "name": "Gärtner-Knobi",        "rarity": "common",    "file": "Gärtner.svg" },
     { "name": "Dino-Knobi",          "rarity": "common",    "file": "Dino.svg" },
     { "name": "Bienchen",          "rarity": "common",    "file": "Biene.svg" },
+    { "name": "Knuddel-Knobi",          "rarity": "common",    "file": "Cozy.svg" },
+    { "name": "Rasender Radler",          "rarity": "common",    "file": "Radler.svg" },
 
     { "name": "Ritter von Knoblingen",          "rarity": "rare",      "file": "Ritter.svg" },
     { "name": "Knobi-Ninja",      "rarity": "rare",      "file": "Ninja.svg" },
     { "name": "Knobi-Wikinger",         "rarity": "rare",      "file": "Wikinger.svg" },
     { "name": "Knobi-Dieb",         "rarity": "rare",      "file": "Dieb.svg" },
+    { "name": "Badboy-Knobi",         "rarity": "rare",      "file": "Badboy.svg" },
+    { "name": "Geist des Knoblauchs",   "rarity": "rare", "file": "Geist.svg" },
 
     { "name": "Sonnenbrillen-Knobi",           "rarity": "epic",      "file": "Sonnebrille.svg" },
     { "name": "Pro-Gamer-Knobi",       "rarity": "epic",      "file": "Gamer.svg" },
     { "name": "Engelsknobi",        "rarity": "epic",      "file": "Engel.svg" },
+    { "name": "DJ ´Knobi´ ",        "rarity": "epic",      "file": "DJ.svg" },
 
     { "name": "Glitzerfunkel",      "rarity": "legendary", "file": "Glitzer.svg" },
     { "name": "Knobi-Liebhaber",      "rarity": "legendary", "file": "Liebender.svg" },
     { "name": "Wahrsagerin",   "rarity": "legendary", "file": "Wahrsager.svg" },
+    { "name": "Muskelprotz-Knobi",   "rarity": "legendary", "file": "Muskelprotz.svg" },
 
     { "name": "Goldi, die Goldene","rarity": "mythic",    "file": "Goldi.svg" },
+    { "name": "Mächtiger Knoblauch","rarity": "mythic",    "file": "maechtigerKnobi.svg" },
+    { "name": "Heiliger Knoblauch","rarity": "mythic",    "file": "heiligerKnobi.svg" },
     { "name": "Vampirjägermeister",      "rarity": "mythic",    "file": "Vampirjäger.svg" }
   ]
 }
