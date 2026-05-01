@@ -67,7 +67,7 @@
     { "name": "frechem Geist",      "rarity": "rare",      "file": "frecherGeist.svg" },
     { "name": "flüchtigem Geist",         "rarity": "rare",      "file": "fluechtigerGeist.svg" },
 
-    { "name": "Lichtbringer-Geist",           "rarity": "epic",      "file": "lmapenGeist.svg" },
+    { "name": "Lichtbringer-Geist",           "rarity": "epic",      "file": "lampenGeist.svg" },
     { "name": "Poltergeist",       "rarity": "epic",      "file": "poltergeist.svg" },
 
     { "name": "rachsüchtigem Geist",      "rarity": "legendary", "file": "dunklerGeist.svg" },
