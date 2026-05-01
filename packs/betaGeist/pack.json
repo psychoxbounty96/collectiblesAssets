@@ -1,1 +1,77 @@
+{
+  "pack_id": "ghost_beta",
+  "collection_id": "ghostBeta_collectibles",
 
+  "pack_name": "GhostBeta Pack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "crystalReveal",
+  "animation_template": "crystalReveal",
+  "allow_recolor": false,
+
+  "asset_label": "Geist",
+  "commands": ["!geist"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 27,
+    "epic": 10,
+    "legendary": 2,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
+    "rare":      { "color": "#4db0ff", "label": "selten" },
+    "epic":      { "color": "#b974ff", "label": "episch" },
+    "legendary": { "color": "#ffb43b", "label": "legendär" },
+    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
+  },
+
+  "animation": {
+    "chargeDuration": 1250,
+    "fadeOutDelay": 1600
+  },
+
+  "effects": {
+    "particleColor": "",
+    "particleCount": 18
+  },
+
+  "container_assets": {
+    "rock": "containerAssets/container_start.svg",
+    "pickaxe": "containerAssets/empty.svg",
+    "crack1": "containerAssets/container_mid.svg",
+    "crack2": "containerAssets/container_final.svg"
+  },
+
+  "sounds": {
+    "charge": "sounds/charge.mp3",
+    "hit": "sounds/hit.mp3",
+    "break": "sounds/break.mp3",
+    "reveal": "sounds/reveal.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} geht auf Geistersuche...",
+    "revealResult": "... und begegnet einem {asset}!"
+  },
+
+  "assets": [
+    { "name": "freundlichem Geist",          "rarity": "common",    "file": "freundlicherGeist.svg" },
+    { "name": "Geistlein",       "rarity": "common",    "file": "geistlein.svg" },
+    { "name": "schüchternem Geist",         "rarity": "common",    "file": "schuechternerGeist.svg" },
+
+    { "name": "schlafendem Geist",          "rarity": "rare",      "file": "schlafenderGeist.svg" },
+    { "name": "frechem Geist",      "rarity": "rare",      "file": "frecherGeist.svg" },
+    { "name": "flüchtigem Geist",         "rarity": "rare",      "file": "fluechtigerGeist.svg" },
+
+    { "name": "Lichtbringer-Geist",           "rarity": "epic",      "file": "lmapenGeist.svg" },
+    { "name": "Poltergeist",       "rarity": "epic",      "file": "poltergeist.svg" },
+
+    { "name": "rachsüchtigem Geist",      "rarity": "legendary", "file": "dunklerGeist.svg" },
+
+    { "name": "Grabwächter",      "rarity": "mythic",    "file": "grabwaechterGeist.svg" }
+  ]
+}
