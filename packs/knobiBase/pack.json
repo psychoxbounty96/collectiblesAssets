@@ -43,9 +43,7 @@
     "rock": "containerAssets/container_start.svg",
     "pickaxe": "containerAssets/giesskanne.svg",
     "crack1": "containerAssets/container_mid.svg",
-    "crack2": "containerAssets/container_final.svg",
-    "burst": "containerAssets/light.svg",
-    "sparkles": "containerAssets/sparkle.svg"
+    "crack2": "containerAssets/container_final.svg"
   },
 
   "sounds": {
