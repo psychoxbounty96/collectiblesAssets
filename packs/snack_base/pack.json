@@ -72,7 +72,7 @@
     { "name": "Schoko-Schmelze",      "file": "schokolade.svg",     "rarity": "rare" },
     { "name": "schiefer Cupcake",         "file": "cupcake.svg",        "rarity": "rare" },
     
-    { "name": "Gummibärchen",      "file": "gummibaerchen.svg",     "rarity": "epic" },
+    { "name": "Gummibärchen",      "file": "gummibarchen.svg",     "rarity": "epic" },
     { "name": "Energy-Katastrophe",            "file": "energy.svg",            "rarity": "epic" },
     { "name": "Kaffe-Fleckmoment",   "file": "kaffee.svg",  "rarity": "epic" },
     
