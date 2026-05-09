@@ -58,7 +58,7 @@
 
   "texts": {
     "foundItem": "{user} grabbelt in der Snacktüte",
-    "revealResult": "Er hat gefunden: {rarity}er {asset}!"
+    "revealResult": "Er hat gefunden: {asset}!"
   },
 
   "assets": [
