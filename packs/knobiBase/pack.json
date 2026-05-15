@@ -30,7 +30,7 @@
   },
 
   "animation": {
-    "chargeDuration": 2500,
+    "chargeDuration": 1500,
     "fadeOutDelay": 3000
   },
 
