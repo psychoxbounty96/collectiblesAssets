@@ -1,1 +1,82 @@
+{
+  "pack_id": "GalaxieWaschbärBeta",
+  "collection_id": "raccoonBeta_collectibles",
 
+  "pack_name": "Waschbär Galaxie Pack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "eggReveal",
+  "animation_template": "eggReveal",
+  "asset_label": "Waschbär",
+  "allow_recolor": false,
+
+  "author": "PsYchOxBoUnTy96",
+  "description": "Das Galaxie-Waschbär-Beta-Pack mit mehreren Sammel-Assets.",
+
+  "commands": ["!bär"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 25,
+    "epic": 10,
+    "legendary": 4,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "label": "Gewöhnlich", "color": "#b8d48a" },
+    "rare":      { "label": "Selten",     "color": "#5ac0e2" },
+    "epic":      { "label": "Episch",     "color": "#a673ff" },
+    "legendary": { "label": "Legendär",   "color": "#ffb43b" },
+    "mythic":    { "label": "Mythisch",   "color": "#ff66cc" }
+  },
+
+  "animation": {
+    "shakeDuration": 2500,
+    "revealDelay": 1500,
+    "fadeOutDelay": 3000
+  },
+
+  "effects": {
+    "particleCount": 14,
+    "flashColor": "#ffffff",
+    "flashOpacity": 0.4,
+    "particleColor": null
+  },
+
+  "egg_assets": {
+    "base": "containerAssets/container.svg",
+    "cracks": [
+      "containerAssets/container.svg",
+      "containerAssets/container_final.svg"
+    ]
+  },
+
+  "sounds": {
+    "hatch": "sounds/hatch.mp3",
+    "reveal": "sounds/rare_drop.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} untersucht einen Baumstamm!",
+    "revealResult": "{user} begegnet einem {asset}-{asset-label}"
+  },
+
+  "assets": [
+    { "name": "Waschbärchen",      "file": "Waschbaerchen.svg",     "rarity": "common" },
+    { "name": "Träumer",      "file": "Traeumer.svg",     "rarity": "common" },
+    { "name": "Sammler",       "file": "Sammler.svg",      "rarity": "common" },
+    
+    { "name": "Geisterjäger",     "file": "Geisterjäger.svg",    "rarity": "rare" },
+    { "name": "Schatzsucher",            "file": "Schatzsucher.svg",           "rarity": "rare" },
+    { "name": "Powerbärchen",       "file": "Powerbaer.svg",      "rarity": "rare" },
+    
+    { "name": "Zauberlehrling",      "file": "Zauberlehrling.svg",     "rarity": "epic" },
+    { "name": "Magiermeister",         "file": "Magiermeister.svg",        "rarity": "epic" },
+
+    { "name": "Kosmischen Waschbären",            "file": "Kosmisch.svg",            "rarity": "legendary" },
+    
+    { "name": "Urahnen der Waschbären",   "file": "Urahne.svg",  "rarity": "mythic" }
+  ]
+}
