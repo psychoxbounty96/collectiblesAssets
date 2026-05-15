@@ -60,7 +60,7 @@
 
   "texts": {
     "foundItem": "{user} untersucht einen Baumstamm!",
-    "revealResult": "{user} begegnet einem {asset}-{asset-label}"
+    "revealResult": "{user} begegnet einem {asset}-Waschbären"
   },
 
   "assets": [
