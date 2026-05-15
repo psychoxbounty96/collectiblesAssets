@@ -48,7 +48,7 @@
   "egg_assets": {
     "base": "containerAssets/container.svg",
     "cracks": [
-      "containerAssets/container.svg",
+      "containerAssets/portal.svg",
       "containerAssets/container_final.svg"
     ]
   },
