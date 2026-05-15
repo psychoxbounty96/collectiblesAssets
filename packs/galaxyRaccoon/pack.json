@@ -64,19 +64,24 @@
   },
 
   "assets": [
-    { "name": "Waschbärchen",      "file": "Waschbaerchen.svg",     "rarity": "common" },
-    { "name": "Träumer",      "file": "Traeumer.svg",     "rarity": "common" },
-    { "name": "Sammler",       "file": "Sammler.svg",      "rarity": "common" },
+    { "name": "Sternensammler",      "file": "Sternensammler.svg",     "rarity": "common" },
+    { "name": "Himmelsbeobachter",      "file": "Himmelsbeobachter.svg",     "rarity": "common" },
+    { "name": "Leuchtschweif",       "file": "Leuchtschweif.svg",      "rarity": "common" },
     
-    { "name": "Geisterjäger",     "file": "Geisterjäger.svg",    "rarity": "rare" },
-    { "name": "Schatzsucher",            "file": "Schatzsucher.svg",           "rarity": "rare" },
-    { "name": "Powerbärchen",       "file": "Powerbaer.svg",      "rarity": "rare" },
+    { "name": "Monddieb",     "file": "Monddieb.svg",    "rarity": "rare" },
+    { "name": "Ringläufer",            "file": "Ringläufer.svg",           "rarity": "rare" },
+    { "name": "Kristalltreiber",       "file": "Kristalltreiber.svg",      "rarity": "rare" },
     
-    { "name": "Zauberlehrling",      "file": "Zauberlehrling.svg",     "rarity": "epic" },
-    { "name": "Magiermeister",         "file": "Magiermeister.svg",        "rarity": "epic" },
+    { "name": "Nebelpfote",      "file": "Nebelpfote.svg",     "rarity": "epic" },
+    { "name": "Kometensprinter",         "file": "Kometensprinter.svg",        "rarity": "epic" },
+    { "name": "Sternenwächter",         "file": "Sternenwaechter.svg",        "rarity": "epic" },
 
-    { "name": "Kosmischen Waschbären",            "file": "Kosmisch.svg",            "rarity": "legendary" },
+    { "name": "Astralmagier",            "file": "Astralmagier.svg",            "rarity": "legendary" },
+    { "name": "Sternenhüter",            "file": "Sternenhueter.svg",            "rarity": "legendary" },
+    { "name": "Galaxiegeist",            "file": "Galaxiegeist.svg",            "rarity": "legendary" },
     
-    { "name": "Urahnen der Waschbären",   "file": "Urahne.svg",  "rarity": "mythic" }
+    { "name": "Wächter von Meekorah",   "file": "WaechterVonMeekorah.svg",  "rarity": "mythic" },
+    { "name": "Leerengeist",   "file": "Leerengeist.svg",  "rarity": "mythic" },
+    { "name": "Galaxiekönig",   "file": "Galaxiekoenig.svg",  "rarity": "mythic" }
   ]
 }
