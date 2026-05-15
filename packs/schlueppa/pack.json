@@ -14,7 +14,7 @@
   "author": "PsYchOxBoUnTy96",
   "description": "Das Schlüppi-Pack mit mehreren Sammel-Assets. Exklusiv für xErdbeerKaese88x",
 
-  "commands": ["!schlüppa"],
+  "commands": ["!schlüppa", "!schlüppi"],
 
   "rarity_weights": {
     "common": 60,
