@@ -69,7 +69,7 @@
     { "name": "Leuchtschweif",       "file": "Leuchtschweif.svg",      "rarity": "common" },
     
     { "name": "Monddieb",     "file": "Monddieb.svg",    "rarity": "rare" },
-    { "name": "Ringläufer",            "file": "Ringläufer.svg",           "rarity": "rare" },
+    { "name": "Ringläufer",            "file": "Ringlaeufer.svg",           "rarity": "rare" },
     { "name": "Kristalltreiber",       "file": "Kristalltreiber.svg",      "rarity": "rare" },
     
     { "name": "Nebelpfote",      "file": "Nebelpfote.svg",     "rarity": "epic" },
