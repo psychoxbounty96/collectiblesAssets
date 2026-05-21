@@ -1,6 +1,6 @@
 {
-  "pack_id": "magic_beta",
-  "collection_id": "magicBeta_collectibles",
+  "pack_id": "magic_base",
+  "collection_id": "magic_collectibles",
 
   "pack_name": "MagicBeta Pack",
   "version": "1.0.0",
