@@ -48,8 +48,8 @@
   "egg_assets": {
     "base": "eggAssets/egg.svg",
     "cracks": [
-      "eggAssets/egg_crack1.svg",
-      "eggAssets/egg_crack2.svg"
+      "eggAssets/crack_1.svg",
+      "eggAssets/crack_2.svg"
     ]
   },
 
