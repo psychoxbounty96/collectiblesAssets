@@ -3,13 +3,13 @@
   "collection_id": "dino_collectibles",
 
   "pack_name": "Dino Pack",
-  "version": "1.1.0",
+  "version": "2.0",
   "engine_min_version": "1.0.0",
 
   "template": "eggReveal",
   "animation_template": "eggReveal",
   "asset_label": "Dino",
-  "allow_recolor": true,
+  "allow_recolor": false,
 
   "author": "PsYchOxBoUnTy96",
   "description": "Das Dino-Pack mit mehreren Sammel-Assets.",
