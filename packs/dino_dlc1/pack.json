@@ -14,7 +14,7 @@
   "author": "PsYchOxBoUnTy96",
   "description": "Das Dino-Erweiteungs-Pack mit neuen Sammel-Assets.",
 
-  "commands": ["!dino", "!egg"],
+  "commands": ["!dino"],
 
   "rarity_weights": {
     "common": 60,
