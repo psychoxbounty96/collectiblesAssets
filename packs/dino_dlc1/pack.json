@@ -3,13 +3,13 @@
   "collection_id": "dino_collectibles",
 
   "pack_name": "Dino_DLC1 Pack",
-  "version": "1.0.0",
+  "version": "2.0",
   "engine_min_version": "1.0.0",
 
   "template": "eggReveal",
   "animation_template": "eggReveal",
   "asset_label": "Dino",
-  "allow_recolor": true,
+  "allow_recolor": false,
 
   "author": "PsYchOxBoUnTy96",
   "description": "Das Dino-Erweiteungs-Pack mit neuen Sammel-Assets.",
@@ -48,8 +48,8 @@
   "egg_assets": {
     "base": "eggAssets/egg.svg",
     "cracks": [
-      "eggAssets/egg_crack1.svg",
-      "eggAssets/egg_crack2.svg"
+      "eggAssets/crack_1.svg",
+      "eggAssets/crack_2.svg"
     ]
   },
 
