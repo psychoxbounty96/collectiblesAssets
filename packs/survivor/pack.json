@@ -3,7 +3,7 @@
   "pack_id": "survivor_base",
   "collection_id": "survivor_collectibles",
 
-  "pack_name": "CrystalPack",
+  "pack_name": "Überlebenden Pack",
   "version": "1.0.0",
   "engine_min_version": "1.0.0",
 
@@ -11,8 +11,8 @@
   "animation_template": "crystalReveal",
   "allow_recolor": false,
 
-  "asset_label": "Kristall",
-  "commands": ["!mine", "!kristall"],
+  "asset_label": "Überlebender",
+  "commands": ["!überleben"],
 
   "rarity_weights": {
     "common": 60,
@@ -41,12 +41,10 @@
   },
 
   "container_assets": {
-    "rock": "containerAssets/rock.svg",
-    "pickaxe": "containerAssets/pickaxe.svg",
-    "crack1": "containerAssets/rock_cracked.svg",
-    "crack2": "containerAssets/rock_br_li.svg",
-    "burst": "containerAssets/light.svg",
-    "sparkles": "containerAssets/sparkle.svg"
+    "rock": "containerAssets/reveal1.svg",
+    "pickaxe": "containerAssets/empty.svg",
+    "crack1": "containerAssets/reveal2.svg",
+    "crack2": "containerAssets/reveal3.svg"
   },
 
   "sounds": {
@@ -57,29 +55,29 @@
   },
 
   "texts": {
-    "foundItem": "💎 {user} hat einen mysteriösen Stein gefunden…",
-    "revealResult": "→ Es war ein {rarity}er {asset}!"
+    "foundItem": "{user} sieht ein Fahrzeug...",
+    "revealResult": "und begegnet {asset}!"
   },
 
   "assets": [
-    { "name": "Quarz",          "rarity": "common",    "file": "quarz.svg" },
-    { "name": "Amethyst",       "rarity": "common",    "file": "amethyst.svg" },
-    { "name": "Saphir",         "rarity": "common",    "file": "saphir.svg" },
-    { "name": "Smaragd",        "rarity": "common",    "file": "smaragd.svg" },
-    { "name": "Topas",          "rarity": "common",    "file": "topas.svg" },
+    { "name": "Nico der Neuling",          "rarity": "common",    "file": "newSurvivor.svg" },
+    { "name": "Flora die Sammlerin",       "rarity": "common",    "file": "collectingSurvivor.svg" },
+    { "name": "Kalle der Koch",         "rarity": "common",    "file": "cookSurvivor.svg" },
+    { "name": "Maja die Sanitäterin",        "rarity": "common",    "file": "medicSurvivor.svg" },
+    { "name": "Dosen Dieter",          "rarity": "common",    "file": "canSurvivor.svg" },
 
-    { "name": "Rubin",          "rarity": "rare",      "file": "rubin.svg" },
-    { "name": "Aquamarin",      "rarity": "rare",      "file": "aquamarin.svg" },
-    { "name": "Citrin",         "rarity": "rare",      "file": "citrin.svg" },
+    { "name": "Rufi Regen",          "rarity": "rare",      "file": "rainSurvivor.svg" },
+    { "name": "Schorsch der Schrauber",      "rarity": "rare",      "file": "mechanicSurvivor.svg" },
+    { "name": "Fred der Angler",         "rarity": "rare",      "file": "fisherSurvivor.svg" },
 
-    { "name": "Onyx",           "rarity": "epic",      "file": "onyx.svg" },
-    { "name": "Obsidian",       "rarity": "epic",      "file": "obsidian.svg" },
-    { "name": "Ametrin",        "rarity": "epic",      "file": "ametrin.svg" },
+    { "name": "Hagen der Jäger",      "rarity": "legendary", "file": "hunterSurvivor.svg" },
+    { "name": "Fritz der Funker",       "rarity": "epic",      "file": "funkerSurvivor.svg" },
+    { "name": "Holger Holz",        "rarity": "epic",      "file": "woodworkerSurvivor.svg" },
 
-    { "name": "Mondstein",      "rarity": "legendary", "file": "mondstein.svg" },
-    { "name": "Blutkristall",   "rarity": "legendary", "file": "blutkristall.svg" },
+    { "name": "Hugo Hazard",           "rarity": "epic",      "file": "hazmatSurvivor.svg" },
+    { "name": "Wolfi Wild",   "rarity": "legendary", "file": "petSurvivor.svg" },
 
-    { "name": "Sternenkristall","rarity": "mythic",    "file": "sternenkristall.svg" },
-    { "name": "Urelement",      "rarity": "mythic",    "file": "urelement.svg" }
+    { "name": "Walter der Weise","rarity": "mythic",    "file": "experiencedSurvivor.svg" },
+    { "name": "Nomade Noah",      "rarity": "mythic",    "file": "masterSurvivor.svg" }
   ]
 }
