@@ -32,7 +32,7 @@
 
   "animation": {
     "chargeDuration": 1250,
-    "fadeOutDelay": 1600
+    "fadeOutDelay": 3600
   },
 
   "effects": {
