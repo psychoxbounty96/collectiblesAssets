@@ -70,11 +70,11 @@
     { "name": "Schorsch der Schrauber",      "rarity": "rare",      "file": "mechanicSurvivor.svg" },
     { "name": "Fred der Angler",         "rarity": "rare",      "file": "fisherSurvivor.svg" },
 
-    { "name": "Hagen der Jäger",      "rarity": "legendary", "file": "hunterSurvivor.svg" },
+    { "name": "Hagen der Jäger",      "rarity": "epic", "file": "hunterSurvivor.svg" },
     { "name": "Fritz der Funker",       "rarity": "epic",      "file": "funkerSurvivor.svg" },
     { "name": "Holger Holz",        "rarity": "epic",      "file": "woodworkerSurvivor.svg" },
 
-    { "name": "Hugo Hazard",           "rarity": "epic",      "file": "hazmatSurvivor.svg" },
+    { "name": "Hugo Hazard",           "rarity": "legendary",      "file": "hazmatSurvivor.svg" },
     { "name": "Wolfi Wild",   "rarity": "legendary", "file": "petSurvivor.svg" },
 
     { "name": "Walter der Weise","rarity": "mythic",    "file": "experiencedSurvivor.svg" },
