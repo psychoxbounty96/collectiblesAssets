@@ -1,1 +1,82 @@
+{
+  "pack_id": "halloween2026",
+  "collection_id": "Halloween_2026",
 
+  "pack_name": "Halloween 2026 Pack",
+  "version": "1.0.0",
+  "engine_min_version": "1.0.0",
+
+  "template": "crystalReveal",
+  "animation_template": "crystalReveal",
+  "allow_recolor": false,
+
+  "asset_label": "Spuk",
+  "commands": ["!boo"],
+
+  "rarity_weights": {
+    "common": 60,
+    "rare": 27,
+    "epic": 10,
+    "legendary": 2,
+    "mythic": 1
+  },
+
+  "rarities": {
+    "common":    { "color": "#9fa4b0", "label": "gewöhnlich" },
+    "rare":      { "color": "#4db0ff", "label": "selten" },
+    "epic":      { "color": "#b974ff", "label": "episch" },
+    "legendary": { "color": "#ffb43b", "label": "legendär" },
+    "mythic":    { "color": "#ff66cc", "label": "mythisch" }
+  },
+
+  "animation": {
+    "chargeDuration": 1250,
+    "fadeOutDelay": 3600
+  },
+
+  "effects": {
+    "particleColor": "",
+    "particleCount": 18
+  },
+
+  "container_assets": {
+    "rock": "containerAssets/geschlossen.svg",
+    "pickaxe": "containerAssets/empty.svg",
+    "crack1": "containerAssets/halb.svg",
+    "crack2": "containerAssets/offen.svg"
+  },
+
+  "sounds": {
+    "charge": "sounds/charge.mp3",
+    "hit": "sounds/hit.mp3",
+    "break": "sounds/break.mp3",
+    "reveal": "sounds/reveal.mp3"
+  },
+
+  "texts": {
+    "foundItem": "{user} öffnet die Gruft...",
+    "revealResult": "und begegnet {asset}!"
+  },
+
+  "assets": [
+    { "name": "Kalle der Kürbiskopf",          "rarity": "common",    "file": "kalle.svg" },
+    { "name": "Hugo der Hausgeist",       "rarity": "common",    "file": "hugo.svg" },
+    { "name": "Berta die Besenhexe",         "rarity": "common",    "file": "berta.svg" },
+    { "name": "Willi der Werwolf",        "rarity": "common",    "file": "willi.svg" },
+    { "name": "Manni die Mumie",          "rarity": "common",    "file": "manni.svg" },
+
+    { "name": "Rudi der Rübengeist",          "rarity": "rare",      "file": "rudi.svg" },
+    { "name": "Elvira die Fledermausfrau",      "rarity": "rare",      "file": "elvira.svg" },
+    { "name": "Franz der Friedhofswärter",         "rarity": "rare",      "file": "franz.svg" },
+    { "name": "Günni der Grabkrabbler",         "rarity": "rare",      "file": "günni.svg" },
+
+    { "name": "Trudi die Trankbrauerin",      "rarity": "epic", "file": "trudi.svg" },
+    { "name": "Viktor der Vampir",       "rarity": "epic",      "file": "viktor.svg" },
+    { "name": "Igor der Geflickte",        "rarity": "epic",      "file": "igor.svg" },
+
+    { "name": "Edgar der kopflose Reiter",           "rarity": "legendary",      "file": "edgar.svg" },
+    { "name": "Madame Mortis",   "rarity": "legendary", "file": "mdm.svg" },
+
+    { "name": "Kasimir der Kürbiskönig",      "rarity": "mythic",    "file": "kasimir.svg" }
+  ]
+}
